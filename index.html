@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✓ Nike. Just Do It. Nike IN</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+  html{ scroll-behavior: smooth; }
+  .imgscale{ transition: transform 0.5s ease; }
+  .imgscale:hover{ transform: scale(1.1); }
+
+  .nike-pad{
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  @media (max-width: 768px){
+    .nike-pad{ padding-left: 16px; padding-right: 16px; }
+  }
+  .spotlight-item{ width: 12.5%; }
+
+  .spotlight-pad{
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 160px;
+  }
+
+  @media (max-width: 1024px){
+    .spotlight-item{ width: 25%; }
+    .spotlight-pad{
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .spotlight-item{ width: 50%; }
+    .spotlight-pad{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 80px;
+    }
+  }
+
+
+  .navbar .nav-item.dropdown.position-static .dropdown-menu{
+    left: 0 ;
+    right: 0 ;
+  }
+  .navbar .dropdown-item{
+    white-space: nowrap;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .navbar .dropdown-item b{ font-size: 15px; }
+</style>
+</head>
+<body>
+
+<div class="container-fluid bg-light">
+  <div class="d-flex justify-content-end py-1 px-4 small mb-0">
+    <a href="#" class="text-dark text-decoration-none border-end px-2 fw-semibold">Help</a>
+    <a href="#" class="text-dark text-decoration-none border-end px-2 fw-semibold">Sign Up</a>
+    <a href="#" class="text-dark text-decoration-none px-2 fw-semibold">Log In</a>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand fw-bold fs-3" href="#">
+      <img src="./images/nike-logo-png-nike-symbol-512.png" width="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
+      <ul class="navbar-nav" style="padding-left: 20px;">
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><b>New & Featured</b></a>
+          <div class="dropdown-menu w-100 mt-0 rounded-0 border-0 shadow-sm">
+            <div class="container py-4">
+              <div class="row justify-content-center">
+                <div class="col-auto" style="min-width: 200px;">
+                  <a href="#" class="dropdown-item"><b>Featured</b></a>
+                  <a href="#" class="dropdown-item">New Arrivals</a>
+                  <a href="#" class="dropdown-item">Bestsellers</a>
+                  <a href="#" class="dropdown-item">Top Picks Under ₹4999</a>
+                </div>
+                <div class="col-auto" style="min-width: 200px;">
+                  <a href="#" class="dropdown-item"><b>Trending</b></a>
+                  <a href="#" class="dropdown-item">Just For The Work</a>
+                  <a href="#" class="dropdown-item">Retro Running</a>
+                  <a href="#" class="dropdown-item">All Conditions Gear</a>
+                </div>
+                <div class="col-auto" style="min-width: 200px;">
+                  <a href="#" class="dropdown-item"><b>Shop Icons</b></a>
+                  <a href="#" class="dropdown-item">Air Force 1</a>
+                  <a href="#" class="dropdown-item">Air Jordan 1</a>
+                  <a href="#" class="dropdown-item">Air Max</a>
+                  <a href="#" class="dropdown-item">Dunk</a>
+                  <a href="#" class="dropdown-item">Pegasus</a>
+                  <a href="#" class="dropdown-item">Vomero</a>
+                </div>
+                <div class="col-auto" style="min-width: 200px;">
+                  <a href="#" class="dropdown-item"><b>Sport</b></a>
+                  <a href="#" class="dropdown-item">Running</a>
+                  <a href="#" class="dropdown-item">Gym & Training</a>
+                  <a href="#" class="dropdown-item">Sportswear</a>
+                  <a href="#" class="dropdown-item">Football</a>
+                  <a href="#" class="dropdown-item">Basketball</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>Men</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>Women</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>Kids</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>Bordan</b></a></li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <form class="d-none d-md-flex">
+        <div class="input-group">
+          <span class="input-group-text rounded-start-pill bg-light border-0"><i class="bi bi-search"></i></span>
+          <input type="search" class="form-control rounded-end-pill bg-light border-0" placeholder="Search">
+        </div>
+      </form>
+      <a href="#" class="text-dark fs-5"><i class="bi bi-heart"></i></a>
+      <a href="#" class="text-dark fs-5"><i class="bi bi-bag"></i></a>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar bg-body-tertiary justify-content-center">
+  <div class="d-flex py-1 px-4 small mb-0">
+    <a href="#" class="text-dark text-decoration-none px-2 fw-semibold">Enjoy 15% Off On The Nike App. Use: APP15</a>
+  </div>
+</nav>
+<nav class="navbar bg-body-tertiary justify-content-center">
+  <div class="d-flex py-1 px-4 small mb-0">
+    <a href="#" class="text-dark text-decoration-none px-2" style="font-weight: 440;"><u>Download Now</u> <u>T&Cs</u></a>
+  </div>
+</nav>
+
+<div id="nikeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/Photo4.jpeg" class="d-block w-100" style="height: 600px; object-fit: cover;">
+      <div class="carousel-caption" style="bottom: 70px;">
+        <h1 class="fw-bold display-3">MOON SHOE</h1>
+        <p class="small">Designed for life in orbit.</p>
+        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Shop</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/Photo2.jpeg" class="d-block w-100" style="height: 600px; object-fit: cover;">
+      <div class="carousel-caption" style="bottom: 70px;">
+        <h1 class="fw-bold display-3">TRAIN EVERYTHING</h1>
+        <p class="small">Work without compromise in the new Nike Hybrid RN.</p>
+        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Shop</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/Photo1.jpeg" class="d-block w-100" style="height: 600px; object-fit: cover;">
+      <div class="carousel-caption" style="bottom: 70px;">
+        <h1 class="fw-bold display-3" style="letter-spacing: -1px;">NEVER MISS A DAY</h1>
+        <p class="small">Conditions change. Goals don't. Nike FIT System keeps you running.</p>
+        <div class="d-flex justify-content-center gap-2">
+          <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Shop</a>
+          <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Watch <i class="bi bi-play-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-indicators">
+    <button data-bs-target="#nikeCarousel" data-bs-slide-to="0" class="active"></button>
+    <button data-bs-target="#nikeCarousel" data-bs-slide-to="1"></button>
+    <button data-bs-target="#nikeCarousel" data-bs-slide-to="2"></button>
+  </div>
+  <button class="carousel-control-prev" data-bs-target="#nikeCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" data-bs-target="#nikeCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+</div>
+
+<div class="container-fluid nike-pad mt-5 mb-5">
+  <h5 class="fw-bold mb-3">Featured</h5>
+  <div class="row g-0">
+    <div class="col-md-6">
+      <div class="card border-0 rounded-0 text-white">
+        <img src="./images/feat1.avif" class="card-img rounded-0" style="height: 550px; object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+          <p class="mb-0 small">Winter Ready</p>
+          <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-0 rounded-0 text-white">
+        <img src="./images/feat2.avif" class="card-img rounded-0" style="height: 550px; object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+          <p class="mb-0 small">Nike Tennis</p>
+          <p class="fw-bold mb-0">Serve Up Some Winning Style</p>
+          <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-0 rounded-0 text-white">
+        <img src="./images/feat3.avif" class="card-img rounded-0" style="height: 550px; object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+          <p class="mb-0 small">Pegasus Plus 2</p>
+          <p class="fw-bold mb-0">Every. Day. Speed.</p>
+          <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-0 rounded-0 text-white">
+        <img src="./images/feat4.avif" class="card-img rounded-0" style="height: 550px; object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+          <p class="mb-0 small">Shaped For The City</p>
+          <p class="fw-bold mb-0">Nike Zoom Skylon 11</p>
+          <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid nike-pad mt-5 position-relative">
+  <h5 class="fw-bold mb-3">Trending</h5>
+  <div id="trendingRow" class="d-flex flex-nowrap overflow-auto pb-2" style="gap: 12px; scrollbar-width: none; scroll-behavior: smooth;">
+    <div class="card border-0 rounded-0 text-white flex-shrink-0" style="width: 32%; min-width: 320px;">
+      <img src="./images/trend1.avif" class="card-img" style="height: 550px; object-fit: cover;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+        <h5 class="fw-bold">Train Like A Pro</h5>
+        <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+      </div>
+    </div>
+    <div class="card border-0 rounded-0 text-white flex-shrink-0" style="width: 32%; min-width: 320px;">
+      <img src="./images/trend2.avif" class="card-img" style="height: 550px; object-fit: cover;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+        <p class="mb-0 small">Run Strong & Train Together</p>
+        <h5 class="fw-bold">After Dark Tour Mumbai Hub</h5>
+        <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Explore</a></div>
+      </div>
+    </div>
+    <div class="card border-0 rounded-0 text-white flex-shrink-0" style="width: 32%; min-width: 320px;">
+      <img src="./images/trend3.avif" class="card-img" style="height: 550px; object-fit: cover;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+        <h5 class="fw-bold">Get Match Ready</h5>
+        <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop Football</a></div>
+      </div>
+    </div>
+    <div class="card border-0 rounded-0 text-white flex-shrink-0" style="width: 32%; min-width: 320px;">
+      <img src="./images/trend4.avif" class="card-img" style="height: 550px; object-fit: cover;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end p-4">
+        <h5 class="fw-bold">Cushioned Comfort</h5>
+        <div><a href="#" class="btn btn-light btn-sm rounded-pill px-3 fw-bold mt-2">Shop</a></div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="left: 120px; top: 50%; z-index: 10;" onclick="document.getElementById('trendingRow').scrollBy({left: -350, behavior: 'smooth'})"><i class="bi bi-chevron-left"></i></button>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="right: 120px; top: 50%; z-index: 10;" onclick="document.getElementById('trendingRow').scrollBy({left: 350, behavior: 'smooth'})"><i class="bi bi-chevron-right"></i></button>
+</div>
+
+<div class="container-fluid nike-pad mt-5 position-relative">
+  <h5 class="fw-bold mb-3">Travel Essentials</h5>
+  <div id="travelRow" class="d-flex flex-nowrap overflow-auto pb-2" style="gap: 12px; scrollbar-width: none; scroll-behavior: smooth;">
+    <div class="flex-shrink-0" style="width: 24%; min-width: 250px;">
+      <img src="./images/essen1.avif" class="w-100" style="height: 380px; object-fit: cover; background: #f5f5f5;">
+      <div class="pt-2"><p class="fw-bold mb-0 small">Nike Cargo Pants</p><p class="text-muted mb-0 small">Men's Pants</p><p class="fw-bold small">₹6,995</p></div>
+    </div>
+    <div class="flex-shrink-0" style="width: 24%; min-width: 250px;">
+      <img src="./images/esen2.avif" class="w-100" style="height: 380px; object-fit: cover; background: #f5f5f5;">
+      <div class="pt-2"><p class="fw-bold mb-0 small">Nike 24.7 ImpossiblySoft Plush</p><p class="text-muted mb-0 small">Men's Therma-FIT Jacket</p><p class="fw-bold small">₹14,995</p></div>
+    </div>
+    <div class="flex-shrink-0" style="width: 24%; min-width: 250px;">
+      <img src="./images/essen3.avif" class="w-100" style="height: 380px; object-fit: cover; background: #f5f5f5;">
+      <div class="pt-2"><p class="fw-bold mb-0 small">Nike Zoom Vomero 5</p><p class="text-muted mb-0 small">Men's Shoes</p><p class="fw-bold small">₹14,995</p></div>
+    </div>
+    <div class="flex-shrink-0" style="width: 24%; min-width: 250px;">
+      <img src="./images/essen4.avif" class="w-100" style="height: 380px; object-fit: cover; background: #f5f5f5;">
+      <div class="pt-2"><p class="fw-bold mb-0 small">Nike Zoom Skylon 11</p><p class="text-muted mb-0 small">Shoes</p><p class="fw-bold small">₹11,995</p></div>
+    </div>
+    <div class="flex-shrink-0" style="width: 24%; min-width: 250px;">
+      <img src="./images/ess5.avif" class="w-100" style="height: 380px; object-fit: cover; background: #f5f5f5;">
+      <div class="pt-2"><p class="fw-bold mb-0 small">Nike Studio Fleece Lightweight</p><p class="text-muted mb-0 small">Women's Mid-Rise Cuffed Trousers</p><p class="fw-bold small">₹3,995</p></div>
+    </div>
+  </div>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="left: 120px; top: 50%; z-index: 10;" onclick="document.getElementById('travelRow').scrollBy({left: -300, behavior: 'smooth'})"><i class="bi bi-chevron-left"></i></button>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="right: 120px; top: 50%; z-index: 10;" onclick="document.getElementById('travelRow').scrollBy({left: 300, behavior: 'smooth'})"><i class="bi bi-chevron-right"></i></button>
+</div>
+
+<div class="container-fluid nike-pad mt-5 position-relative">
+  <h5 class="fw-bold mb-3">Shop By Sport</h5>
+  <div id="sportRow" class="d-flex flex-nowrap overflow-auto pb-2" style="gap: 12px; scrollbar-width: none; scroll-behavior: smooth;">
+    <div class="flex-shrink-0" style="width: 32%; min-width: 320px;"><img src="./images/sp1.avif" class="w-100" style="height: 550px; object-fit: cover;"><p class="fw-bold mt-2">Running</p></div>
+    <div class="flex-shrink-0" style="width: 32%; min-width: 320px;"><img src="./images/sp2.avif" class="w-100" style="height: 550px; object-fit: cover;"><p class="fw-bold mt-2">Training</p></div>
+    <div class="flex-shrink-0" style="width: 32%; min-width: 320px;"><img src="./images/spo3.avif" class="w-100" style="height: 550px; object-fit: cover;"><p class="fw-bold mt-2">Sportswear</p></div>
+    <div class="flex-shrink-0" style="width: 32%; min-width: 320px;"><img src="./images/spo4.avif" class="w-100" style="height: 550px; object-fit: cover;"><p class="fw-bold mt-2">Basketball</p></div>
+    <div class="flex-shrink-0" style="width: 32%; min-width: 320px;"><img src="./images/spo5.avif" class="w-100" style="height: 550px; object-fit: cover;"><p class="fw-bold mt-2">Football</p></div>
+  </div>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="left: 120px; top: 45%; z-index: 10;" onclick="document.getElementById('sportRow').scrollBy({left: -350, behavior: 'smooth'})"><i class="bi bi-chevron-left"></i></button>
+  <button class="btn btn-light rounded-circle position-absolute shadow" style="right: 120px; top: 45%; z-index: 10;" onclick="document.getElementById('sportRow').scrollBy({left: 350, behavior: 'smooth'})"><i class="bi bi-chevron-right"></i></button>
+</div>
+
+<div class="container-fluid nike-pad mt-5">
+  <div class="d-flex justify-content-center align-items-center gap-4 py-3 px-4" style="background-color: #EDE6D6;">
+    <img src="./images/nike-logo-png-nike-symbol-512.png" style="width: 70px; height: 70px; object-fit: contain; background: white; border-radius: 12px; padding: 10px;">
+    <h3 class="mb-0 text-uppercase" style="font-weight: 900; letter-spacing: -0.5px; font-size: 28px;">It's Better On The Nike App</h3>
+    <img src="./images/qrcode1.png" style="width: 70px; height: 70px; object-fit: contain;">
+  </div>
+</div>
+
+<div class="container-fluid nike-pad text-center my-5">
+  <h1 class="text-uppercase mb-2" style="font-weight: 900; font-size: 60px; letter-spacing: -2px; line-height: 1;">Spotlight</h1>
+  <p class="mb-0" style="font-size: 15px; font-weight:700;">Classic silhouettes and cutting-edge innovation to build your game from the ground up.</p>
+</div>
+
+<div class="container-fluid nike-pad mb-5 spotlight-pad">
+  <div class="d-flex flex-wrap justify-content-start">
+    <div class="text-center p-2 spotlight-item"><img src="./images/first.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Air Jordan 1</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/second.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Air Force 1</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/third.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Graphic Tees</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/forth.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Pegasus Premium</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/first.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Vomero 18</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/second.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Pegasus 42</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/third.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Slides</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/forth.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Tiempo Elite</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/first.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Dunk</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/second.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Bottoms</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/third.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">P-6000</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/forth.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Caps</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/first.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Air Max</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/second.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Sports Bras</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/third.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Metcon 7</p></div>
+    <div class="text-center p-2 spotlight-item"><img src="./images/forth.avif" class="w-100" style="height: 110px; object-fit: contain;"><p class="fw-bold small mt-1 mb-0">Shorts</p></div>
+  </div>
+</div>
+
+<footer class="container-fluid nike-pad mt-5 pb-4">
+  <div class="border-top pt-4 d-flex flex-wrap gap-3 small">
+    <span class="text-dark">© 2026 Nike, Inc. All rights reserved</span>
+    <a href="#" class="text-dark text-decoration-none">Terms of Use</a>
+    <a href="#" class="text-dark text-decoration-none">Nike Privacy Policy</a>
+    <a href="#" class="text-dark text-decoration-none">Store Claim Policy</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+var config = {
+    env: "pro",
+    components_version: "1.0.4",
+    shared_footer_version: "1.0.9",
+    shared_header_version: "1.0.88",
+    federationPageList: "all",
+    openFederation: true,
+    stat: {
+        cookiePolicyLevel: "low",
+        cookieDefaultOnCat: "0,1,2,3:",
+        cookieDomain: ".mi.com"
+    },
+    trustArcSite: "in",
+    trustArcLang: "en",
+    wwwSite: {
+        pc: "//www.mi.com/in"
+    },
+    goSite: "//in-go.buy.mi.com/in",
+    local: "in",
+    buySite: {
+        pc: "//store.mi.com/in"
+    },
+    isToC: true
+};
+window.__LOCAL_CONFIG__ = config;

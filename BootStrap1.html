@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Website</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Changing to "container" adds clean padding on both left and right sides -->
+  <div class="container">
+    
+    <!-- Brand Title (Stays on the left side of the container) -->
+    <a class="navbar-brand text-white fw-bold" href="#">My Website</a>
+    
+    <!-- Link List Wrapper (Pushed to the right side of the container) -->
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-50" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/banff-national-park-canada.webp" style="height: 400px;" class="d-block w-100" alt="imag">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/columbi.webp" style="height: 400px;" class="d-block w-100" alt="imag">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/istockphoto.jpg" style="height: 400px;" class="d-block w-100" alt="imag">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100" style="width: 400px;">
+      <img src="./images/images1.jpg" style="height: 200px;" class="card-img-top" height="200px" alt="img">
+      <div class="card-body">
+        <h5 class="card-title">Card 1</h5>
+        <p class="card-text">This is the first card</p>
+       <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="width: 400px;">
+      <img src="./images/images2.jpg" style="height: 200px;" class="card-img-top" alt="imag">
+      <div class="card-body">
+        <h5 class="card-title">Card 2</h5>
+        <p class="card-text">This is the second card card.</p>
+         <a href="#" class="btn btn-primary" style="background-color: green;" >Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="width: 400px;" >
+      <img src="./images/images3.jpg" style="height: 200px;" class="card-img-top" alt="imag">
+      <div class="card-body">
+        <h5 class="card-title">Card 3</h5>
+        <p class="card-text">This is the third card</p>
+       <a href="#" class="btn btn-primary" style="background-color: rgb(231, 42, 42);" >Read more</a>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
